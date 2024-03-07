@@ -13,9 +13,10 @@ int main(){
     cout<<c<<endl;
     char bb[]="String is funny";char bbb[]="Number is funny";
     strncat(bb,bbb,2);
-    cout<<bb<<endl;// bb []="String is funnyNu"
+    cout<<bb<<endl;
     strncpy(bbb,bb,3);
-    cout<<bbb<<endl;// bbb []="Number is funnyStr"-->This supposed to be
-    cout<<strlen(bbb);// This is supposed to be 
+    cout<<bbb<<endl;
+    cout<<strlen(bbb);
+    cout<<"\n"<<strcmp(bb,strchr(bbb,'i'));
     return 0;
 }
