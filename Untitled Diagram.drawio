@@ -15,22 +15,22 @@
         <mxCell id="Admin_to_AdminID" parent="1" source="Admin" target="AdminID" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Username" value="Username" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AdminUsername" value="Username" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="90" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Admin_to_Username" parent="1" source="Admin" target="Username" edge="1">
+        <mxCell id="Admin_to_AdminUsername" parent="1" source="Admin" target="AdminUsername" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Email" value="Email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AdminEmail" value="Email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="150" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Admin_to_Email" parent="1" source="Admin" target="Email" edge="1">
+        <mxCell id="Admin_to_AdminEmail" parent="1" source="Admin" target="AdminEmail" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Password" value="Password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="AdminPassword" value="Password" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="250" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Admin_to_Password" parent="1" source="Admin" target="Password" edge="1">
+        <mxCell id="Admin_to_AdminPassword" parent="1" source="Admin" target="AdminPassword" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
@@ -49,11 +49,26 @@
           </mxGeometry>
         </mxCell>
         
-        <!-- Sales entity and relationship with Admin -->
+        <!-- Sales entity and attributes -->
         <mxCell id="Sales" value="Sales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" parent="1" vertex="1">
           <mxGeometry x="350" y="350" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Manages_to_Sales" parent="1" source="Manages" target="Sales" edge="1">
+        <mxCell id="SalesID" value="SalesID" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sales_to_SalesID" parent="1" source="Sales" target="SalesID" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SalesQuantity" value="Quantity" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sales_to_SalesQuantity" parent="1" source="Sales" target="SalesQuantity" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CalcDate" value="CalcDate" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="460" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sales_to_CalcDate" parent="1" source="Sales" target="CalcDate" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
@@ -75,28 +90,28 @@
         <mxCell id="Book_to_BookID" parent="1" source="Book" target="BookID" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Title" value="Title" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BookTitle" value="Title" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="140" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Book_to_Title" parent="1" source="Book" target="Title" edge="1">
+        <mxCell id="Book_to_BookTitle" parent="1" source="Book" target="BookTitle" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ISBN" value="ISBN" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BookISBN" value="ISBN" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="200" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Book_to_ISBN" parent="1" source="Book" target="ISBN" edge="1">
+        <mxCell id="Book_to_BookISBN" parent="1" source="Book" target="BookISBN" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Price" value="Price" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BookPrice" value="Price" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="260" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Book_to_Price" parent="1" source="Book" target="Price" edge="1">
+        <mxCell id="Book_to_BookPrice" parent="1" source="Book" target="BookPrice" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Author" value="Author" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="BookAuthor" value="Author" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="260" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Book_to_Author" parent="1" source="Book" target="Author" edge="1">
+        <mxCell id="Book_to_BookAuthor" parent="1" source="Book" target="BookAuthor" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
@@ -111,9 +126,6 @@
         <!-- Category entity and attributes -->
         <mxCell id="Category" value="Category" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" parent="1" vertex="1">
           <mxGeometry x="900" y="200" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BelongsTo_to_Category" parent="1" source="BelongsTo" target="Category" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CategoryID" value="CategoryID" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="120" width="60" height="40" as="geometry" />
@@ -138,16 +150,16 @@
         <mxCell id="Customer_to_CustomerID" parent="1" source="Customer" target="CustomerID" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Name" value="Name" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CustomerName" value="Name" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="420" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Customer_to_Name" parent="1" source="Customer" target="Name" edge="1">
+        <mxCell id="Customer_to_CustomerName" parent="1" source="Customer" target="CustomerName" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Email" value="Email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CustomerEmail" value="Email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="480" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Customer_to_Email" parent="1" source="Customer" target="Email" edge="1">
+        <mxCell id="Customer_to_CustomerEmail" parent="1" source="Customer" target="CustomerEmail" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
@@ -172,10 +184,10 @@
         <mxCell id="Cart_to_CartID" parent="1" source="Cart" target="CartID" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Quantity" value="Quantity" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CartQuantity" value="Quantity" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="420" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Cart_to_Quantity" parent="1" source="Cart" target="Quantity" edge="1">
+        <mxCell id="Cart_to_CartQuantity" parent="1" source="Cart" target="CartQuantity" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         
@@ -200,10 +212,10 @@
         <mxCell id="Payment_to_PaymentID" parent="1" source="Payment" target="PaymentID" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Amount" value="Amount" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PaymentAmount" value="Amount" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="420" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Payment_to_Amount" parent="1" source="Payment" target="Amount" edge="1">
+        <mxCell id="Payment_to_PaymentAmount" parent="1" source="Payment" target="PaymentAmount" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PaymentDate" value="PaymentDate" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
