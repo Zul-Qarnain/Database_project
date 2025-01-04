@@ -218,7 +218,7 @@
         <mxCell id="pPjB5a9F8bC1zN0jK9c0-69" value="CartID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="530" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="pPjB5a9F8bC1zN0jK9c0-70" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-60" target="pPjB5a9F8bC1zN0jK9c0-70">
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-70" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-60" target="pPjB5a9F8bC1zN0jK9c0-69">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="pPjB5a9F8bC1zN0jK9c0-71" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
@@ -233,4 +233,4 @@
         <mxCell id="pPjB5a9F8bC1zN0jK9c0-74" value="BookID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="690" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="pPjB5a9F8bC1zN0jK9c0-75" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-60" target="pPjB5a9F8b
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-75" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9
