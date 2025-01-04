@@ -1,41 +1,66 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
-  <diagram name="ER Diagram" id="ER-Diagram-1">
-    <mxGraphModel dx="1116" dy="704" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+<mxfile host="69a4d90c-450d-4d8f-b1a5-f6911a4c85f0" modified="2024-02-29T16:16:51.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.0 Chrome/120.0.6099.234 Electron/28.2.0 Safari/537.36" etag="Hj100k5f7W7kFwHhX2rK" version="23.1.0" type="device">
+  <diagram name="Page-1" id="2v3cK4fD7Jv4Vw0qW9uX">
+    <mxGraphModel dx="1130" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-
-        <!-- Admin Entity -->
-        <mxCell id="Admin" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-1" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="100" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="AdminID" value="AdminID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="50" width="85" height="50" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-2" value="AdminID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="Username" value="Username" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="120" width="85" height="50" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-3" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-1" target="pPjB5a9F8bC1zN0jK9c0-2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="Email" value="Email" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="190" width="85" height="50" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-4" value="Username" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="Password" value="Password" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="260" width="85" height="50" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-5" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-1" target="pPjB5a9F8bC1zN0jK9c0-4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- Relationships -->
-        <mxCell id="Manages" value="Manages" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="140" width="96" height="100" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-6" value="Email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="Oversees" value="Oversees" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="340" width="96" height="100" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-7" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-1" target="pPjB5a9F8bC1zN0jK9c0-6">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-
-        <!-- Connections -->
-        <mxCell id="Connect_Admin_Manages" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Admin" target="Manages">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-8" value="Password" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="60" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="Connect_Customer_Oversees" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Customer" target="Oversees">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-9" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-1" target="pPjB5a9F8bC1zN0jK9c0-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-10" value="Manages" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5d5e3;strokeColor=#9ea9ad;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-11" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-1" target="pPjB5a9F8bC1zN0jK9c0-10">
+          <mxGeometry x="0.3721" y="0" relative="1" as="geometry">
+            <mxPoint x="161" y="200" as="sourcePoint"/>
+            <mxPoint x="200" y="200" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="210" y="200" />
+            </Array>
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-12" value="Sales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-13" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-10" target="pPjB5a9F8bC1zN0jK9c0-12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-14" value="Book" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="100" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-15" value="Includes" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5d5e3;strokeColor=#9ea9ad;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="80" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-16" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-12" target="pPjB5a9F8bC1zN0jK9c0-15">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pPjB5a9F8bC1zN0jK9c0-17" edge="1" parent="1" source="pPjB5a9F8bC1zN0jK9c0-15" target="pPjB5a9F8bC1zN0jK9c0-14">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
