@@ -54,7 +54,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CategoryName" value="CategoryName" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="160" width="80" height="40" as="geometry" />
+          <mxGeometry x="1020" y="160" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Category_to_CategoryName" parent="1" target="CategoryName" edge="1">
           <mxGeometry relative="1" as="geometry">
