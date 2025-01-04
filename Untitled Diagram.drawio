@@ -1,66 +1,61 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.3">
-  <diagram name="Page-1" id="Q62apn5PFXH0UE8WaQl7">
+  <diagram name="ER Diagram" id="ER-Diagram-1">
     <mxGraphModel dx="1116" dy="704" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-1" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+
+        <!-- Admin Entity -->
+        <mxCell id="Admin" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.059;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqkmF1jX6xaH4szpkVHV-4" target="XqkmF1jX6xaH4szpkVHV-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="340" as="sourcePoint" />
-            <mxPoint x="310" y="290" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="200" y="310" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="AdminID" value="AdminID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-3" value="AdminID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="170" width="85" height="50" as="geometry" />
+        <mxCell id="Username" value="Username" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-4" value="Username" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="240" width="85" height="50" as="geometry" />
+        <mxCell id="Email" value="Email" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqkmF1jX6xaH4szpkVHV-9" target="XqkmF1jX6xaH4szpkVHV-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="410" as="sourcePoint" />
-            <mxPoint x="280" y="220" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="200" y="310" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Password" value="Password" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-8" value="Email" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="350" width="85" height="50" as="geometry" />
+
+        <!-- Relationships -->
+        <mxCell id="Manages" value="Manages" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-9" value="Password" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="410" width="85" height="50" as="geometry" />
+
+        <mxCell id="Oversees" value="Oversees" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XqkmF1jX6xaH4szpkVHV-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="310" as="sourcePoint" />
-            <mxPoint x="430" y="310" as="targetPoint" />
-          </mxGeometry>
+
+        <!-- Add the remaining entities such as Customer, Book, Cart, etc., and their attributes -->
+        <mxCell id="Customer" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-11" value="Manages" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="400" y="260" width="96" height="100" as="geometry" />
+        <mxCell id="CustomerID" value="CustomerID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="128" y="340" as="sourcePoint" />
-            <mxPoint x="128" y="544" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Name" value="Name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XqkmF1jX6xaH4szpkVHV-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="128" y="544" as="sourcePoint" />
-            <mxPoint x="416" y="544" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Contact" value="Contact" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="85" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XqkmF1jX6xaH4szpkVHV-18" value="Oversees" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="416" y="496" width="96" height="100" as="geometry" />
+        <mxCell id="CustomerEmail" value="Email" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="590" width="85" height="50" as="geometry" />
         </mxCell>
+
+        <!-- Add lines connecting entities to attributes and relationships -->
+        <mxCell id="Connect1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Admin" target="Manages">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Connect2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="Customer" target="Oversees">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>
