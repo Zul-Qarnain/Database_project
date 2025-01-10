@@ -111,7 +111,7 @@
         <mxCell id="knSOr63fwJM2YxoM46Qa-34" parent="1" source="knSOr63fwJM2YxoM46Qa-28" target="knSOr63fwJM2YxoM46Qa-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="knSOr63fwJM2YxoM46Qa-35" value="PaymentStatus" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="knSOr63fwJM2YxoM46Qa-35" value="traID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="590" y="690" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="knSOr63fwJM2YxoM46Qa-36" parent="1" source="knSOr63fwJM2YxoM46Qa-28" target="knSOr63fwJM2YxoM46Qa-35" edge="1">
@@ -395,6 +395,24 @@
             <mxPoint x="730" y="280" as="sourcePoint" />
             <mxPoint x="620" y="327.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-26" value="CartID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="670" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="pzduVk1Wxx4do5fI0MAX-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="560" as="sourcePoint" />
+            <mxPoint x="840" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="knSOr63fwJM2YxoM46Qa-28" target="pzduVk1Wxx4do5fI0MAX-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="600" as="sourcePoint" />
+            <mxPoint x="1010" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-32" value="CustomerID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="630" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
