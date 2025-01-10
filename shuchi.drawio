@@ -300,7 +300,7 @@
         <mxCell id="0gAxfDzyQAuVlfRYsMav-304" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-297" target="0gAxfDzyQAuVlfRYsMav-300">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0gAxfDzyQAuVlfRYsMav-557" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-305" target="0gAxfDzyQAuVlfRYsMav-297">
+        <mxCell id="0gAxfDzyQAuVlfRYsMav-557" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=1.5;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-305" target="0gAxfDzyQAuVlfRYsMav-297">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-297" value="Category" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
