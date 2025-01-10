@@ -195,7 +195,7 @@
         <mxCell id="0gAxfDzyQAuVlfRYsMav-266" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=default;endArrow=ERmany;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-272" target="0gAxfDzyQAuVlfRYsMav-267">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0gAxfDzyQAuVlfRYsMav-566" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-267" target="0gAxfDzyQAuVlfRYsMav-562">
+        <mxCell id="0gAxfDzyQAuVlfRYsMav-566" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-267" target="0gAxfDzyQAuVlfRYsMav-562">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-267" value="Cart" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
@@ -239,7 +239,7 @@
         <mxCell id="0gAxfDzyQAuVlfRYsMav-550" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-276" target="0gAxfDzyQAuVlfRYsMav-542">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0gAxfDzyQAuVlfRYsMav-565" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-276" target="0gAxfDzyQAuVlfRYsMav-562">
+        <mxCell id="0gAxfDzyQAuVlfRYsMav-565" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-276" target="0gAxfDzyQAuVlfRYsMav-562">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-276" value="Order" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
