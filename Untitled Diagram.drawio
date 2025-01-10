@@ -414,6 +414,15 @@
         <mxCell id="pzduVk1Wxx4do5fI0MAX-32" value="CustomerID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1000" y="630" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="knSOr63fwJM2YxoM46Qa-49" target="pzduVk1Wxx4do5fI0MAX-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="250" as="sourcePoint" />
+            <mxPoint x="70" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pzduVk1Wxx4do5fI0MAX-36" value="uPassword" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
