@@ -319,7 +319,7 @@
         <mxCell id="0gAxfDzyQAuVlfRYsMav-7" value="have" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1040" y="-190" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0gAxfDzyQAuVlfRYsMav-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-11" target="0gAxfDzyQAuVlfRYsMav-22">
+        <mxCell id="0gAxfDzyQAuVlfRYsMav-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-11" target="0gAxfDzyQAuVlfRYsMav-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-11" target="0gAxfDzyQAuVlfRYsMav-21">
@@ -349,7 +349,7 @@
         <mxCell id="0gAxfDzyQAuVlfRYsMav-22" value="CategoryID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="655" y="320" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0gAxfDzyQAuVlfRYsMav-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-11" target="0gAxfDzyQAuVlfRYsMav-19">
+        <mxCell id="0gAxfDzyQAuVlfRYsMav-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.367;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-11" target="0gAxfDzyQAuVlfRYsMav-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
