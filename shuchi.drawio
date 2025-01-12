@@ -369,13 +369,13 @@
           <mxGeometry x="3970" y="440" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-417" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="3640" y="380" width="90" height="70" as="geometry" />
+          <mxGeometry x="3620" y="340" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-421" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" parent="1" source="0gAxfDzyQAuVlfRYsMav-418" target="0gAxfDzyQAuVlfRYsMav-210" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-418" value="Purchase" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3655" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="3640" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-530" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="3280" y="450" width="90" height="70" as="geometry" />
