@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="Page-1" id="3rhYrRMiB4eGqfflBsjG">
-    <mxGraphModel dx="-1750" dy="1034" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="1">
+    <mxGraphModel dx="-1565" dy="1146" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-556" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1.5;" parent="1" source="0gAxfDzyQAuVlfRYsMav-203" target="0gAxfDzyQAuVlfRYsMav-210" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsrrJz_K4vzebeDcMopM-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-210" target="lsrrJz_K4vzebeDcMopM-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-210" value="Book" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" parent="1" vertex="1">
@@ -503,6 +506,9 @@
         </mxCell>
         <mxCell id="lsrrJz_K4vzebeDcMopM-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.362;entryY=1.054;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-267" target="lsrrJz_K4vzebeDcMopM-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lsrrJz_K4vzebeDcMopM-51" value="Quantity" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="240" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
