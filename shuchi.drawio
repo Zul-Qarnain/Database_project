@@ -58,9 +58,9 @@
         <mxCell id="lsrrJz_K4vzebeDcMopM-52" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-210" target="lsrrJz_K4vzebeDcMopM-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsrrJz_K4vzebeDcMopM-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.527;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0gAxfDzyQAuVlfRYsMav-210" target="lsrrJz_K4vzebeDcMopM-55">
+        <mxCell id="lsrrJz_K4vzebeDcMopM-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;exitX=0.527;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lsrrJz_K4vzebeDcMopM-55" target="0gAxfDzyQAuVlfRYsMav-210">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4340" y="240" as="targetPoint" />
+            <mxPoint x="4340" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0gAxfDzyQAuVlfRYsMav-210" value="Book" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" parent="1" vertex="1">
@@ -446,7 +446,7 @@
         <mxCell id="lsrrJz_K4vzebeDcMopM-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lsrrJz_K4vzebeDcMopM-6" target="lsrrJz_K4vzebeDcMopM-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lsrrJz_K4vzebeDcMopM-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="lsrrJz_K4vzebeDcMopM-6" target="lsrrJz_K4vzebeDcMopM-55">
+        <mxCell id="lsrrJz_K4vzebeDcMopM-59" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lsrrJz_K4vzebeDcMopM-55" target="lsrrJz_K4vzebeDcMopM-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lsrrJz_K4vzebeDcMopM-6" value="CartItem" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
