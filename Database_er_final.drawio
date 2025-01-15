@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="Page-1" id="6lhcVRIQe2DY9xGinTSk">
-    <mxGraphModel dx="3500" dy="2913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
         <mxCell id="knSOr63fwJM2YxoM46Qa-42" value="Sales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" parent="1" vertex="1">
           <mxGeometry x="520" y="30" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="knSOr63fwJM2YxoM46Qa-43" value="SalesID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="knSOr63fwJM2YxoM46Qa-43" value="OrderID" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="420" y="90" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="knSOr63fwJM2YxoM46Qa-44" parent="1" source="knSOr63fwJM2YxoM46Qa-42" target="knSOr63fwJM2YxoM46Qa-43" edge="1">
