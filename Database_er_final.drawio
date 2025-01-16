@@ -1985,7 +1985,7 @@
         <mxCell id="IDNncMACQ7T-u04gjP9q-187" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IDNncMACQ7T-u04gjP9q-161" target="IDNncMACQ7T-u04gjP9q-186">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IDNncMACQ7T-u04gjP9q-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IDNncMACQ7T-u04gjP9q-161" target="IDNncMACQ7T-u04gjP9q-170">
+        <mxCell id="IDNncMACQ7T-u04gjP9q-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="IDNncMACQ7T-u04gjP9q-161" target="IDNncMACQ7T-u04gjP9q-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IDNncMACQ7T-u04gjP9q-161" value="Book" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a2d4e6;strokeColor=#63919f;" vertex="1" parent="1">
