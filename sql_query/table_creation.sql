@@ -61,7 +61,6 @@ CREATE TABLE OrdersWithAdmin (
     Zip_Code VARCHAR2(10),
     City VARCHAR2(50),
     AdminID NUMBER,
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (AdminID) REFERENCES Admin(AdminID)
 );
 
@@ -72,7 +71,6 @@ CREATE TABLE OrdersWithBooks (
     Zip_Code VARCHAR2(10),
     City VARCHAR2(50),
     ISBN NUMBER,
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
 );
 
@@ -106,7 +104,6 @@ CREATE TABLE OrdersWithCustomers (
     Zip_Code VARCHAR2(10),
     City VARCHAR2(50),
     CustomerID NUMBER,
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)
 );
 
@@ -117,7 +114,6 @@ CREATE TABLE OrdersWithCart (
     Zip_Code VARCHAR2(10),
     City VARCHAR2(50),
     CartID NUMBER,
-    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
     FOREIGN KEY (CartID) REFERENCES Cart(CartID)
 );
 
@@ -140,7 +136,6 @@ CREATE TABLE TransactionsWithOrders (
     PaymentDate DATE,
     PhoneNum VARCHAR2(15),
     OrderID NUMBER,
-    FOREIGN KEY (TXNID) REFERENCES Transactions(TXNID),
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 
@@ -158,7 +153,6 @@ CREATE TABLE TransactionsWithCustomers (
     PaymentDate DATE,
     PhoneNum VARCHAR2(15),
     CustomerID NUMBER,
-    FOREIGN KEY (TXNID) REFERENCES Transactions(TXNID),
     FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)
 );
 
@@ -181,16 +175,14 @@ CREATE TABLE LoanWithBooks (
     ReturnDate DATE,
     BorrowTime INTERVAL DAY TO SECOND,
     ISBN NUMBER,
-    FOREIGN KEY (LoanID) REFERENCES Loan(LoanID),
     FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
 );
 
---22. Cart Items with Books Table
+-- 22. Cart Items with Books Table
 CREATE TABLE CartItemsWithBooks (
     CartID NUMBER PRIMARY KEY,
     Amount NUMBER(10, 2),
     CartItem VARCHAR2(200),
     ISBN NUMBER,
-    FOREIGN KEY (CartID) REFERENCES Cart(CartID),
     FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
 );
