@@ -185,7 +185,7 @@ CREATE TABLE LoanWithBooks (
     FOREIGN KEY (ISBN) REFERENCES Books(ISBN)
 );
 
--- 22. Cart Items with Books Table
+--22. Cart Items with Books Table
 CREATE TABLE CartItemsWithBooks (
     CartID NUMBER PRIMARY KEY,
     Amount NUMBER(10, 2),
