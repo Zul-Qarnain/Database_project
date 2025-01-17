@@ -124,14 +124,14 @@ CREATE TABLE CartItems (
     CartItem VARCHAR2(200)
 );
 
--- 16. Transactions Table
-CREATE TABLE Transactions (
+-- 16. Payment Table
+CREATE TABLE Payment (
     TXNID NUMBER PRIMARY KEY,
     PaymentType VARCHAR2(50)
 );
 
--- 17. Transactions with Orders Table
-CREATE TABLE TransactionsWithOrders (
+-- 17. Payment with Orders Table
+CREATE TABLE PaymentWithOrders (
     TXNID NUMBER PRIMARY KEY,
     PaymentDate DATE,
     PhoneNum VARCHAR2(15),
@@ -147,8 +147,8 @@ CREATE TABLE OrdersAddress (
     City VARCHAR2(50)
 );
 
--- 19. Transactions with Customers Table
-CREATE TABLE TransactionsWithCustomers (
+-- 19. Payment with Customers Table
+CREATE TABLE PaymentWithCustomers (
     TXNID NUMBER PRIMARY KEY,
     PaymentDate DATE,
     PhoneNum VARCHAR2(15),
